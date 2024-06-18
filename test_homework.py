@@ -59,7 +59,7 @@ def test_random_list():
     # TODO создайте список
     l = []
     for i in range(10):
-        j = random.randint(10, 100)
+        j = random.randint(1, 100)
         l.append(j)
     l.sort()
 
